@@ -1,7 +1,7 @@
 #function to compute total sum of squares error
 
 SSE = function(city_df, clustering) { 
-  #city_df is a dataframe with columns: city name, lon, lat, population
+  #city_df is a dataframe with columns: city name, longitude, latitude, population
   #clustering is vector of cluster assignment of cities
   
   #prepare argument
